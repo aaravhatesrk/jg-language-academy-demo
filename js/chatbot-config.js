@@ -7,7 +7,7 @@
  *   e.g. 'https://bot.jglanguageacademy.com/webhook/support-chat'
  */
 window.SUPPORT_CHAT_CONFIG = {
-  webhookUrl: 'https://intersection-territories-everything-sense.trycloudflare.com/webhook/support-chat', // TEMP demo tunnel (2026-08-04) — ephemeral, dies when the tunnel process stops. Revert to '/webhook/support-chat' once behind the VPS reverse proxy.
+  webhookUrl: 'https://parameters-permalink-june-milton.trycloudflare.com/webhook/support-chat', // TEMP demo tunnel (2026-08-04) — ephemeral, dies when the tunnel process stops. Revert to '/webhook/support-chat' once behind the VPS reverse proxy.
   apiKeyHeader: 'X-Api-Key',
   // Read from the page URL (?k=...) instead of hardcoding, so the key never lands in git history / public source.
   apiKey: new URLSearchParams(window.location.search).get('k') || '',
